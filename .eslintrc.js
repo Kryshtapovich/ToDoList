@@ -19,6 +19,6 @@ module.exports = {
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-explicit-any": "off",
     quotes: ["warn", "double"],
-    indent: ["warn", 2, { SwitchCase: 1 }]
+    indent: ["warn", 2, { SwitchCase: 1, ignoredNodes: ["PropertyDefinition"] }]
   }
 };
